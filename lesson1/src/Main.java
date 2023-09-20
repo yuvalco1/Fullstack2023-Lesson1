@@ -40,6 +40,15 @@ public class Main {
 
 
         // Exercise 2 - get a room width and height - Show its area and perimeter
+        System.out.println("please enter room width in meters:");
+        float width = scanner.nextFloat();
+        System.out.println("please enter room height in meters:");
+        float height = scanner.nextFloat();
+
+        float perimeter  = width *2 + height *2 ;
+        float area = width * height;
+
+        System.out.println("room area is: " + area + "Meter^2 and perimeter is: " + perimeter+ "meter");
 
         // Exercise 3 - get a movie length in minutes - show in hours and minutes
 
