@@ -7,5 +7,11 @@ public class Main {
         int age = 53;
 
         System.out.println(firstName+" "+lastName+ " age is:"+ age );
+
+        // Exercise - to print true in case i finished school more than 10 years ago , otherwise flase
+
+        int yearsAgo = 15;
+        System.out.println(yearsAgo >= 10);
+
     }
 }
