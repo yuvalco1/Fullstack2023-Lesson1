@@ -51,6 +51,11 @@ public class Main {
         System.out.println("room area is: " + area + "Meter^2 and perimeter is: " + perimeter+ "meter");
 
         // Exercise 3 - get a movie length in minutes - show in hours and minutes
+        System.out.println("please enter movie length in minutes:");
+        int minutes = scanner.nextInt();
+        int hours = minutes/60;
+        int modmin = minutes%60;
+        System.out.println("Movie length is: " + hours + " Hours and " + modmin+ " minutes");
 
     }
 }
