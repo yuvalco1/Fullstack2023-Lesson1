@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -19,5 +21,27 @@ public class Main {
         System.out.println("Now a is:" + a + " and b is:" + b);
         System.out.println();
 //  adding file to github
+
+        // Homework
+        Scanner scanner = new Scanner(System.in);
+
+        // Exercise 1 - get 3 numbers , show there sum and average
+        System.out.println("please enter first number:");
+        int num1 = scanner.nextInt();
+        System.out.println("please enter 2nd number:");
+        int num2 = scanner.nextInt();
+        System.out.println("please enter 3rd number:");
+        int num3 = scanner.nextInt();
+
+        int sum = num1 + num2 + num3;
+        float avg = sum / 3;
+
+        System.out.println("sum of 3 number is: " + sum + " and average is: " + avg);
+
+
+        // Exercise 2 - get a room width and height - Show its area and perimeter
+
+        // Exercise 3 - get a movie length in minutes - show in hours and minutes
+
     }
 }
